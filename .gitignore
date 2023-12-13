@@ -75,7 +75,7 @@ Packages
 .build/
 xcuserdata
 DerivedData/
-*.xcodeproj
+# *.xcodeproj
 
 
 ### Xcode ###
@@ -105,9 +105,9 @@ build/
 /*.gcno
 
 ### Xcode Patch ###
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
+# *.xcodeproj/*
+# !*.xcodeproj/project.pbxproj
+# !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 
