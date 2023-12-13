@@ -1,0 +1,1408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EAA7E46C2E28A1145D9294 /* LookinEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 411BF0534324121B413FA103 /* LookinEventHandler.m */; };
+		04A6E06B63E408F2E2FA8BB0 /* LookinDisplayItemDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = F89A3796C6DF66B2A741E105 /* LookinDisplayItemDetail.m */; };
+		063397AD35D4A2D31A2D383C /* Lookin_PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6867787E260A369C8247A408 /* Lookin_PTProtocol.m */; };
+		06BDBA282286F604B54598F7 /* Color+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 820BAD9E350B41D7955D51AD /* Color+Lookin.m */; };
+		0CCA2B21E8D7E96AAE8330C6 /* LKS_ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8109F67634C4466FCF5C11 /* LKS_ConnectionManager.m */; };
+		0ECF172AAE14F31AD6078CAB /* LookinCustomDisplayItemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3741772D37DC529CA49BD824 /* LookinCustomDisplayItemInfo.m */; };
+		149B89EF7933E94FDBFACE6F /* NSObject+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E6544DFDFA8F450A577C5 /* NSObject+LookinServer.m */; };
+		1875A843CDE7C4083D106443 /* LookinAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A642394D66584736FBCA8611 /* LookinAttribute.m */; };
+		188DB44966F48D8958E5B6F1 /* NSString+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3E09E6CC28CCCBC043619 /* NSString+Lookin.m */; };
+		18C56B11E3084C7287C3E253 /* LookinHierarchyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2720DD708E3EF1B4229C2F0C /* LookinHierarchyInfo.m */; };
+		19E0E5C56C54682BE3D7CBF6 /* LKS_ExportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73574FA4E8FCB850ECB21FC4 /* LKS_ExportManager.m */; };
+		1DEBA95912762DEEE749BCBD /* CALayer+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D4B976582835733E3E440 /* CALayer+LookinServer.m */; };
+		21D108E6C26508BB1F70FEC2 /* LKS_CustomAttrGroupsMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D510FA34D3819115C30D8F7 /* LKS_CustomAttrGroupsMaker.m */; };
+		303CD3315044B71D6A793388 /* UIViewController+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D959D14834CF6FE6380B1BED /* UIViewController+LookinServer.m */; };
+		35C7EA1AE0E21A70547B1AFD /* LKS_ObjectRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BCEE70675876977FF6DBFD /* LKS_ObjectRegistry.m */; };
+		362809B0432ECC7D1E68095B /* NSSet+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E9E3D220518C5F894368BD /* NSSet+Lookin.m */; };
+		432FB6463DCA95C8EC465229 /* UIImage+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8698F25685D0F17EF296230 /* UIImage+LookinServer.m */; };
+		4508A2F316DC8147DEE7F273 /* LKS_AttrModificationPatchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E4CF13B7B50644A2902B8 /* LKS_AttrModificationPatchHandler.m */; };
+		4E3F1A6ECD2B4B5CE6020570 /* LKS_HierarchyDisplayItemsMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 752991CB4EF4FDDD8D43B006 /* LKS_HierarchyDisplayItemsMaker.m */; };
+		50316335554C2D45D10D667A /* LookinServerBase.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = F78B92187DB1018706663963 /* LookinServerBase.framework */; };
+		5390063C6FCEEE8C96EE0890 /* LookinTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 62412D74D16A7054D959C485 /* LookinTuple.m */; };
+		56B78D0CCED2C0EBB0A9AE05 /* LookinHierarchyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EA8A4B9307B413B71ACB6A /* LookinHierarchyFile.m */; };
+		5A0AFB982518FA2851252889 /* LookinCustomAttrModification.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3836515124906B3A5BE44F /* LookinCustomAttrModification.m */; };
+		68962C7525A366F26A25F0BB /* LookinAttributesSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BA0718CE54CD7F2336A77 /* LookinAttributesSection.m */; };
+		69D6F0E0998C174C0D5896EE /* UIView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 811AA14930E927149F814971 /* UIView+LookinServer.m */; };
+		6EF15AB25D18658BAEB4D15B /* LookinConnectionAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F03522115CBC41D9268184 /* LookinConnectionAttachment.m */; };
+		70A75B83E745774904F93F6D /* NSArray+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AEADF9931912409D22DB0E /* NSArray+Lookin.m */; };
+		74C7FCD518C9FB4E6D4FB74F /* LookinAttrIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = EE80490E7FF31CE92C866666 /* LookinAttrIdentifiers.m */; };
+		7506A51C1129B6ED6090ED2B /* LKS_InbuiltAttrModificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A1F0C22F6B3F83EC2503E1 /* LKS_InbuiltAttrModificationHandler.m */; };
+		79EB5F899D5B2043999DBEBE /* CALayer+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCDFC3E144B9FDFA758D1C8 /* CALayer+Lookin.m */; };
+		7EF6B753B6F21828BA1F4457 /* LookinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A6068B727D4098E7811CB6DD /* LookinObject.m */; };
+		7F759EB4BF8DCFDA19B468A5 /* UITableView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC8D23D618DB456ED4A5A6 /* UITableView+LookinServer.m */; };
+		82B66B050EB7F8B5B603709D /* UITextView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D31A96ED166934A1EF4E2E /* UITextView+LookinServer.m */; };
+		89D931D3F9C68DE408D19F68 /* LKS_EventHandlerMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8E935C560DFFDCEB07516B /* LKS_EventHandlerMaker.m */; };
+		89DF76889753923376B90DC5 /* LKS_TraceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A040D1BC0478C124876D0 /* LKS_TraceManager.m */; };
+		8A5DFEEA70397D555D3F7E04 /* LookinServerSwift.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 74030E977C3F1BF2E0B036E4 /* LookinServerSwift.framework */; };
+		8B772345322B439034BCBD80 /* LKS_SwiftTraceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880DB77C8F3E4CA0E4080BCC /* LKS_SwiftTraceManager.swift */; };
+		8EBE57CE42D9310028A40A64 /* NSObject+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8038076D9E211E580AB1D144 /* NSObject+Lookin.m */; };
+		9239C88B25DE266F65AD289C /* LookinDisplayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD2C0D04EB6DF5F150F005 /* LookinDisplayItem.m */; };
+		924B8661CEE0CB03B4579454 /* LKS_RequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DF9ADA4E0D64E02C0953E7 /* LKS_RequestHandler.m */; };
+		A304F68BB0C0F49E291CE424 /* UIImageView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68EB4CBFF5D5DF08484C75 /* UIImageView+LookinServer.m */; };
+		A84589E1A6BE0BDCC1774631 /* UIBlurEffect+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE85F51E723E00322CCD47B /* UIBlurEffect+LookinServer.m */; };
+		AFA6B0F75FE2CFC2FDC47ABC /* LKS_AttrGroupsMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 50934C59F3FE7F66C5E53FB3 /* LKS_AttrGroupsMaker.m */; };
+		B1A7983BA649624464AB7C4F /* LKSConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F66922BA01DF6E2C0D25FBB4 /* LKSConfigManager.m */; };
+		B374829B7FF3D2D5EC4A499B /* UITextField+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ECCE1EF70F89507FCEC0E2 /* UITextField+LookinServer.m */; };
+		B4A69D7E7024C9E0CED5E600 /* LookinStaticAsyncUpdateTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE04CE329CF7317093A4A7F /* LookinStaticAsyncUpdateTask.m */; };
+		B4ECF4E194AE5CA30618721A /* UIColor+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E16DFD14C05E7F1BF48CF72 /* UIColor+LookinServer.m */; };
+		BD9FEB71C3BEDE5D206590A2 /* LKS_HierarchyDetailsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A7783E671358ACD82AE3600D /* LKS_HierarchyDetailsHandler.m */; };
+		C04E2B896725FC69B9C514F6 /* Lookin_PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B170B5D4D9717CCF021F66 /* Lookin_PTUSBHub.m */; };
+		C0D9A9C09039FA606EFD8E45 /* LookinAttributeModification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F83BCFC4F11B6367C3869 /* LookinAttributeModification.m */; };
+		C23E8DEE494A4A4A8097A293 /* LookinAutoLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DF302E29258687B592C3D838 /* LookinAutoLayoutConstraint.m */; };
+		CAB87ECAE969D29357DD0F50 /* LKS_GestureTargetActionsSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C10030995C37D6F91EA8CF /* LKS_GestureTargetActionsSearcher.m */; };
+		CE43B26D2625F4FEFE114923 /* LookinConnectionResponseAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = BE27F88B00443EB3D6379AC3 /* LookinConnectionResponseAttachment.m */; };
+		D0CCB605B991F3F56932685B /* Lookin_PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 227D93813936DC2D00F1063E /* Lookin_PTChannel.m */; };
+		D2997D44006125578888AE89 /* LookinDashboardBlueprint.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB44FB4566B8945AEA16AD /* LookinDashboardBlueprint.m */; };
+		D924E61057980683077D6F69 /* LKS_CustomAttrModificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F9EF2B66A71C17156177CF /* LKS_CustomAttrModificationHandler.m */; };
+		D97F9FC71A38ABAA29318C38 /* UIVisualEffectView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF502DE222D948B9F95468 /* UIVisualEffectView+LookinServer.m */; };
+		DD64BE73608A48934BB12047 /* UILabel+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9841FA045619E442ED46B491 /* UILabel+LookinServer.m */; };
+		E7A92CFFD8817AFE66247B98 /* Image+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = C568956DDE60A89A2F5C97A0 /* Image+Lookin.m */; };
+		EA4F902E7E8A5D8002CEBFF4 /* LookinAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B54CC4841DE2B6F540A02 /* LookinAppInfo.m */; };
+		EB127C623755A07D9AD346DA /* LookinAttributesGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2A02E1D9D3513FBE7B3A5D /* LookinAttributesGroup.m */; };
+		F2DB1D490871EC9F4B683C7B /* LKS_CustomDisplayItemsMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A549C6B71DAFD322CB094C /* LKS_CustomDisplayItemsMaker.m */; };
+		F4D9017038E70C327D327321 /* LookinWeakContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83A83B9D9CA12A51F60EB4 /* LookinWeakContainer.m */; };
+		F8AC1EB53587C66ABE874D67 /* LookinIvarTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C6D53CD216C0BA6B31F8F4 /* LookinIvarTrace.m */; };
+		F8EFA9D2C96087F898E86063 /* LKS_CustomAttrSetterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F25D46235AF76E447B3BC124 /* LKS_CustomAttrSetterManager.m */; };
+		FA0477DED6EF6BF446C8080B /* LKS_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E177BAF037796D3A70E44CB /* LKS_Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CC10C8DC1D5E4ECF5357F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A1165BCAE2FE99C1B3BDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6051CDE5EB9693C3FDF3BC;
+			remoteInfo = LookinServerSwift;
+		};
+		AF741B4223931AEBF6E92C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A1165BCAE2FE99C1B3BDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963C07E0F0167BD382EF3EB3;
+			remoteInfo = LookinServerBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62CB7F3BD1A826C156E934DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4796DB7A5FF90E8AFAC0317 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				50316335554C2D45D10D667A /* LookinServerBase.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C09778A16717B5D4D6462D00 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F141DC301EE070131CFAD4 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				8A5DFEEA70397D555D3F7E04 /* LookinServerSwift.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EA130B918443140B82583D51 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		014BA0718CE54CD7F2336A77 /* LookinAttributesSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinAttributesSection.m; sourceTree = "<group>"; };
+		02B170B5D4D9717CCF021F66 /* Lookin_PTUSBHub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lookin_PTUSBHub.m; sourceTree = "<group>"; };
+		0E177BAF037796D3A70E44CB /* LKS_Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_Helper.m; sourceTree = "<group>"; };
+		18C10030995C37D6F91EA8CF /* LKS_GestureTargetActionsSearcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_GestureTargetActionsSearcher.m; sourceTree = "<group>"; };
+		1C6E6544DFDFA8F450A577C5 /* NSObject+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LookinServer.m"; sourceTree = "<group>"; };
+		1F83A83B9D9CA12A51F60EB4 /* LookinWeakContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinWeakContainer.m; sourceTree = "<group>"; };
+		227D93813936DC2D00F1063E /* Lookin_PTChannel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lookin_PTChannel.m; sourceTree = "<group>"; };
+		24DA60521208E45197CF7ECC /* LookinServerBase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LookinServerBase-Info.plist"; sourceTree = "<group>"; };
+		2720DD708E3EF1B4229C2F0C /* LookinHierarchyInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinHierarchyInfo.m; sourceTree = "<group>"; };
+		2E16DFD14C05E7F1BF48CF72 /* UIColor+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LookinServer.m"; sourceTree = "<group>"; };
+		33F9EF2B66A71C17156177CF /* LKS_CustomAttrModificationHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_CustomAttrModificationHandler.m; sourceTree = "<group>"; };
+		3741772D37DC529CA49BD824 /* LookinCustomDisplayItemInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinCustomDisplayItemInfo.m; sourceTree = "<group>"; };
+		379A040D1BC0478C124876D0 /* LKS_TraceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_TraceManager.m; sourceTree = "<group>"; };
+		37F03522115CBC41D9268184 /* LookinConnectionAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinConnectionAttachment.m; sourceTree = "<group>"; };
+		411BF0534324121B413FA103 /* LookinEventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinEventHandler.m; sourceTree = "<group>"; };
+		43E8CEFA32BF771B31F9B527 /* LookinServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LookinServer-Info.plist"; sourceTree = "<group>"; };
+		458D4B976582835733E3E440 /* CALayer+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LookinServer.m"; sourceTree = "<group>"; };
+		47BCEE70675876977FF6DBFD /* LKS_ObjectRegistry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_ObjectRegistry.m; sourceTree = "<group>"; };
+		47ECCE1EF70F89507FCEC0E2 /* UITextField+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LookinServer.m"; sourceTree = "<group>"; };
+		4A68EB4CBFF5D5DF08484C75 /* UIImageView+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LookinServer.m"; sourceTree = "<group>"; };
+		4DE04CE329CF7317093A4A7F /* LookinStaticAsyncUpdateTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinStaticAsyncUpdateTask.m; sourceTree = "<group>"; };
+		50934C59F3FE7F66C5E53FB3 /* LKS_AttrGroupsMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_AttrGroupsMaker.m; sourceTree = "<group>"; };
+		54EF502DE222D948B9F95468 /* UIVisualEffectView+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIVisualEffectView+LookinServer.m"; sourceTree = "<group>"; };
+		57DF9ADA4E0D64E02C0953E7 /* LKS_RequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_RequestHandler.m; sourceTree = "<group>"; };
+		5B2B54CC4841DE2B6F540A02 /* LookinAppInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinAppInfo.m; sourceTree = "<group>"; };
+		5CEDB702458A7DC9D3FA5096 /* LookinServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LookinServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6F83BCFC4F11B6367C3869 /* LookinAttributeModification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinAttributeModification.m; sourceTree = "<group>"; };
+		62412D74D16A7054D959C485 /* LookinTuple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinTuple.m; sourceTree = "<group>"; };
+		6867787E260A369C8247A408 /* Lookin_PTProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lookin_PTProtocol.m; sourceTree = "<group>"; };
+		6B3836515124906B3A5BE44F /* LookinCustomAttrModification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinCustomAttrModification.m; sourceTree = "<group>"; };
+		6CE85F51E723E00322CCD47B /* UIBlurEffect+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBlurEffect+LookinServer.m"; sourceTree = "<group>"; };
+		6D510FA34D3819115C30D8F7 /* LKS_CustomAttrGroupsMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_CustomAttrGroupsMaker.m; sourceTree = "<group>"; };
+		73574FA4E8FCB850ECB21FC4 /* LKS_ExportManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_ExportManager.m; sourceTree = "<group>"; };
+		74030E977C3F1BF2E0B036E4 /* LookinServerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LookinServerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		752991CB4EF4FDDD8D43B006 /* LKS_HierarchyDisplayItemsMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_HierarchyDisplayItemsMaker.m; sourceTree = "<group>"; };
+		7BCDFC3E144B9FDFA758D1C8 /* CALayer+Lookin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Lookin.m"; sourceTree = "<group>"; };
+		8038076D9E211E580AB1D144 /* NSObject+Lookin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Lookin.m"; sourceTree = "<group>"; };
+		811AA14930E927149F814971 /* UIView+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LookinServer.m"; sourceTree = "<group>"; };
+		81E9E3D220518C5F894368BD /* NSSet+Lookin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Lookin.m"; sourceTree = "<group>"; };
+		820BAD9E350B41D7955D51AD /* Color+Lookin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Color+Lookin.m"; sourceTree = "<group>"; };
+		880DB77C8F3E4CA0E4080BCC /* LKS_SwiftTraceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKS_SwiftTraceManager.swift; sourceTree = "<group>"; };
+		8EDD2C0D04EB6DF5F150F005 /* LookinDisplayItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinDisplayItem.m; sourceTree = "<group>"; };
+		9841FA045619E442ED46B491 /* UILabel+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LookinServer.m"; sourceTree = "<group>"; };
+		98EA8A4B9307B413B71ACB6A /* LookinHierarchyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinHierarchyFile.m; sourceTree = "<group>"; };
+		9BD3E09E6CC28CCCBC043619 /* NSString+Lookin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Lookin.m"; sourceTree = "<group>"; };
+		9D0E4CF13B7B50644A2902B8 /* LKS_AttrModificationPatchHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_AttrModificationPatchHandler.m; sourceTree = "<group>"; };
+		A6068B727D4098E7811CB6DD /* LookinObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinObject.m; sourceTree = "<group>"; };
+		A642394D66584736FBCA8611 /* LookinAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinAttribute.m; sourceTree = "<group>"; };
+		A7783E671358ACD82AE3600D /* LKS_HierarchyDetailsHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_HierarchyDetailsHandler.m; sourceTree = "<group>"; };
+		A8D31A96ED166934A1EF4E2E /* UITextView+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LookinServer.m"; sourceTree = "<group>"; };
+		AD2A02E1D9D3513FBE7B3A5D /* LookinAttributesGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinAttributesGroup.m; sourceTree = "<group>"; };
+		B0C6D53CD216C0BA6B31F8F4 /* LookinIvarTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinIvarTrace.m; sourceTree = "<group>"; };
+		B2A549C6B71DAFD322CB094C /* LKS_CustomDisplayItemsMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_CustomDisplayItemsMaker.m; sourceTree = "<group>"; };
+		B7AEADF9931912409D22DB0E /* NSArray+Lookin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Lookin.m"; sourceTree = "<group>"; };
+		BC7AF8D93BF9167989FB9ED6 /* LookinServerSwift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LookinServerSwift-Info.plist"; sourceTree = "<group>"; };
+		BE27F88B00443EB3D6379AC3 /* LookinConnectionResponseAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinConnectionResponseAttachment.m; sourceTree = "<group>"; };
+		C568956DDE60A89A2F5C97A0 /* Image+Lookin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Image+Lookin.m"; sourceTree = "<group>"; };
+		CAFC8D23D618DB456ED4A5A6 /* UITableView+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LookinServer.m"; sourceTree = "<group>"; };
+		D0A1F0C22F6B3F83EC2503E1 /* LKS_InbuiltAttrModificationHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_InbuiltAttrModificationHandler.m; sourceTree = "<group>"; };
+		D959D14834CF6FE6380B1BED /* UIViewController+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LookinServer.m"; sourceTree = "<group>"; };
+		DB8E935C560DFFDCEB07516B /* LKS_EventHandlerMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_EventHandlerMaker.m; sourceTree = "<group>"; };
+		DE8109F67634C4466FCF5C11 /* LKS_ConnectionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_ConnectionManager.m; sourceTree = "<group>"; };
+		DF302E29258687B592C3D838 /* LookinAutoLayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinAutoLayoutConstraint.m; sourceTree = "<group>"; };
+		E3EB44FB4566B8945AEA16AD /* LookinDashboardBlueprint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinDashboardBlueprint.m; sourceTree = "<group>"; };
+		E8698F25685D0F17EF296230 /* UIImage+LookinServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LookinServer.m"; sourceTree = "<group>"; };
+		EE80490E7FF31CE92C866666 /* LookinAttrIdentifiers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinAttrIdentifiers.m; sourceTree = "<group>"; };
+		F25D46235AF76E447B3BC124 /* LKS_CustomAttrSetterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKS_CustomAttrSetterManager.m; sourceTree = "<group>"; };
+		F66922BA01DF6E2C0D25FBB4 /* LKSConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSConfigManager.m; sourceTree = "<group>"; };
+		F78B92187DB1018706663963 /* LookinServerBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LookinServerBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89A3796C6DF66B2A741E105 /* LookinDisplayItemDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookinDisplayItemDetail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08407E0869E8BEBC4F6E9328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB822BB2E4FAFCC86AC98A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEA7EDC0F0884492E3E2911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB813063A74FB5BC2618ED3 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				C0273BF2EE9C7E0A0158956A /* Derived */,
+				EE21BC0CC214EF92B4F8E616 /* Src */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		22913233D19B0849C7A26A0A /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				5835A5A4573189D3EE6FF47B /* RequestHandler */,
+				DE8109F67634C4466FCF5C11 /* LKS_ConnectionManager.m */,
+				57DF9ADA4E0D64E02C0953E7 /* LKS_RequestHandler.m */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		2F55D72864F2F9049243C418 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D11AD0F8607E2AEE9A5D85F7 /* Category */,
+				7322F147A5422D71CFB0117C /* Peertalk */,
+				5B2B54CC4841DE2B6F540A02 /* LookinAppInfo.m */,
+				A642394D66584736FBCA8611 /* LookinAttribute.m */,
+				5E6F83BCFC4F11B6367C3869 /* LookinAttributeModification.m */,
+				AD2A02E1D9D3513FBE7B3A5D /* LookinAttributesGroup.m */,
+				014BA0718CE54CD7F2336A77 /* LookinAttributesSection.m */,
+				EE80490E7FF31CE92C866666 /* LookinAttrIdentifiers.m */,
+				DF302E29258687B592C3D838 /* LookinAutoLayoutConstraint.m */,
+				37F03522115CBC41D9268184 /* LookinConnectionAttachment.m */,
+				BE27F88B00443EB3D6379AC3 /* LookinConnectionResponseAttachment.m */,
+				6B3836515124906B3A5BE44F /* LookinCustomAttrModification.m */,
+				3741772D37DC529CA49BD824 /* LookinCustomDisplayItemInfo.m */,
+				E3EB44FB4566B8945AEA16AD /* LookinDashboardBlueprint.m */,
+				8EDD2C0D04EB6DF5F150F005 /* LookinDisplayItem.m */,
+				F89A3796C6DF66B2A741E105 /* LookinDisplayItemDetail.m */,
+				411BF0534324121B413FA103 /* LookinEventHandler.m */,
+				98EA8A4B9307B413B71ACB6A /* LookinHierarchyFile.m */,
+				2720DD708E3EF1B4229C2F0C /* LookinHierarchyInfo.m */,
+				A6068B727D4098E7811CB6DD /* LookinObject.m */,
+				4DE04CE329CF7317093A4A7F /* LookinStaticAsyncUpdateTask.m */,
+				62412D74D16A7054D959C485 /* LookinTuple.m */,
+				1F83A83B9D9CA12A51F60EB4 /* LookinWeakContainer.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5835A5A4573189D3EE6FF47B /* RequestHandler */ = {
+			isa = PBXGroup;
+			children = (
+				9D0E4CF13B7B50644A2902B8 /* LKS_AttrModificationPatchHandler.m */,
+				33F9EF2B66A71C17156177CF /* LKS_CustomAttrModificationHandler.m */,
+				A7783E671358ACD82AE3600D /* LKS_HierarchyDetailsHandler.m */,
+				D0A1F0C22F6B3F83EC2503E1 /* LKS_InbuiltAttrModificationHandler.m */,
+			);
+			path = RequestHandler;
+			sourceTree = "<group>";
+		};
+		5A39473AA4F78A3B34F61653 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B0C6D53CD216C0BA6B31F8F4 /* LookinIvarTrace.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5C07B1236A93F05843C738C6 = {
+			isa = PBXGroup;
+			children = (
+				0EB813063A74FB5BC2618ED3 /* Project */,
+				D5261E93B9B5D5CE31B1D151 /* Frameworks */,
+				F3D70B70B15EC4E3043BB357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62505D63C9D08D7CF4BCFE81 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				50934C59F3FE7F66C5E53FB3 /* LKS_AttrGroupsMaker.m */,
+				6D510FA34D3819115C30D8F7 /* LKS_CustomAttrGroupsMaker.m */,
+				F25D46235AF76E447B3BC124 /* LKS_CustomAttrSetterManager.m */,
+				B2A549C6B71DAFD322CB094C /* LKS_CustomDisplayItemsMaker.m */,
+				DB8E935C560DFFDCEB07516B /* LKS_EventHandlerMaker.m */,
+				73574FA4E8FCB850ECB21FC4 /* LKS_ExportManager.m */,
+				18C10030995C37D6F91EA8CF /* LKS_GestureTargetActionsSearcher.m */,
+				0E177BAF037796D3A70E44CB /* LKS_Helper.m */,
+				752991CB4EF4FDDD8D43B006 /* LKS_HierarchyDisplayItemsMaker.m */,
+				47BCEE70675876977FF6DBFD /* LKS_ObjectRegistry.m */,
+				379A040D1BC0478C124876D0 /* LKS_TraceManager.m */,
+				F66922BA01DF6E2C0D25FBB4 /* LKSConfigManager.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6376584DB3CA688D07BC59DA /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				880DB77C8F3E4CA0E4080BCC /* LKS_SwiftTraceManager.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		7322F147A5422D71CFB0117C /* Peertalk */ = {
+			isa = PBXGroup;
+			children = (
+				227D93813936DC2D00F1063E /* Lookin_PTChannel.m */,
+				6867787E260A369C8247A408 /* Lookin_PTProtocol.m */,
+				02B170B5D4D9717CCF021F66 /* Lookin_PTUSBHub.m */,
+			);
+			path = Peertalk;
+			sourceTree = "<group>";
+		};
+		7EDAC899CAB7F05CE662E73D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				458D4B976582835733E3E440 /* CALayer+LookinServer.m */,
+				1C6E6544DFDFA8F450A577C5 /* NSObject+LookinServer.m */,
+				6CE85F51E723E00322CCD47B /* UIBlurEffect+LookinServer.m */,
+				2E16DFD14C05E7F1BF48CF72 /* UIColor+LookinServer.m */,
+				E8698F25685D0F17EF296230 /* UIImage+LookinServer.m */,
+				4A68EB4CBFF5D5DF08484C75 /* UIImageView+LookinServer.m */,
+				9841FA045619E442ED46B491 /* UILabel+LookinServer.m */,
+				CAFC8D23D618DB456ED4A5A6 /* UITableView+LookinServer.m */,
+				47ECCE1EF70F89507FCEC0E2 /* UITextField+LookinServer.m */,
+				A8D31A96ED166934A1EF4E2E /* UITextView+LookinServer.m */,
+				811AA14930E927149F814971 /* UIView+LookinServer.m */,
+				D959D14834CF6FE6380B1BED /* UIViewController+LookinServer.m */,
+				54EF502DE222D948B9F95468 /* UIVisualEffectView+LookinServer.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A45764439FA2740A2137B1FD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BBB987D449E19E6BEF159A96 /* Server */,
+				2F55D72864F2F9049243C418 /* Shared */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BBB987D449E19E6BEF159A96 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				7EDAC899CAB7F05CE662E73D /* Category */,
+				22913233D19B0849C7A26A0A /* Connection */,
+				62505D63C9D08D7CF4BCFE81 /* Others */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		C0273BF2EE9C7E0A0158956A /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B7C0DE1103CB9DDAE4167 /* InfoPlists */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		D11AD0F8607E2AEE9A5D85F7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7BCDFC3E144B9FDFA758D1C8 /* CALayer+Lookin.m */,
+				820BAD9E350B41D7955D51AD /* Color+Lookin.m */,
+				C568956DDE60A89A2F5C97A0 /* Image+Lookin.m */,
+				B7AEADF9931912409D22DB0E /* NSArray+Lookin.m */,
+				8038076D9E211E580AB1D144 /* NSObject+Lookin.m */,
+				81E9E3D220518C5F894368BD /* NSSet+Lookin.m */,
+				9BD3E09E6CC28CCCBC043619 /* NSString+Lookin.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D5261E93B9B5D5CE31B1D151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF7B7C0DE1103CB9DDAE4167 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				43E8CEFA32BF771B31F9B527 /* LookinServer-Info.plist */,
+				24DA60521208E45197CF7ECC /* LookinServerBase-Info.plist */,
+				BC7AF8D93BF9167989FB9ED6 /* LookinServerSwift-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		EE21BC0CC214EF92B4F8E616 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				5A39473AA4F78A3B34F61653 /* Base */,
+				A45764439FA2740A2137B1FD /* Main */,
+				6376584DB3CA688D07BC59DA /* Swift */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		F3D70B70B15EC4E3043BB357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CEDB702458A7DC9D3FA5096 /* LookinServer.framework */,
+				F78B92187DB1018706663963 /* LookinServerBase.framework */,
+				74030E977C3F1BF2E0B036E4 /* LookinServerSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963C07E0F0167BD382EF3EB3 /* LookinServerBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C87588C75039C69C7B850ED /* Build configuration list for PBXNativeTarget "LookinServerBase" */;
+			buildPhases = (
+				8C70B6AF1640D97D55ED962D /* Sources */,
+				F146E843BB33BC5C4D81613B /* Resources */,
+				EA130B918443140B82583D51 /* Embed Frameworks */,
+				ACEA7EDC0F0884492E3E2911 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LookinServerBase;
+			productName = LookinServerBase;
+			productReference = F78B92187DB1018706663963 /* LookinServerBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E82E74835FFC8ADE2A272575 /* LookinServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B03A9E7009899C7B66EBE400 /* Build configuration list for PBXNativeTarget "LookinServer" */;
+			buildPhases = (
+				93C92D42B864931F547AD102 /* Sources */,
+				0F7CC27897378600DA305AB6 /* Resources */,
+				C09778A16717B5D4D6462D00 /* Embed Frameworks */,
+				08407E0869E8BEBC4F6E9328 /* Frameworks */,
+				C4F141DC301EE070131CFAD4 /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5AE3A363F9F47C65EBA34A8 /* PBXTargetDependency */,
+			);
+			name = LookinServer;
+			productName = LookinServer;
+			productReference = 5CEDB702458A7DC9D3FA5096 /* LookinServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD6051CDE5EB9693C3FDF3BC /* LookinServerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD570A83FC875D4BDE1F142 /* Build configuration list for PBXNativeTarget "LookinServerSwift" */;
+			buildPhases = (
+				6383A083323F050C766F8CB5 /* Sources */,
+				EC3D0CFFDC6EFA07E93C7760 /* Resources */,
+				62CB7F3BD1A826C156E934DB /* Embed Frameworks */,
+				5DB822BB2E4FAFCC86AC98A2 /* Frameworks */,
+				A4796DB7A5FF90E8AFAC0317 /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6467F9C1D8548ACB6A1698F3 /* PBXTargetDependency */,
+			);
+			name = LookinServerSwift;
+			productName = LookinServerSwift;
+			productReference = 74030E977C3F1BF2E0B036E4 /* LookinServerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36A1165BCAE2FE99C1B3BDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = 24A6F103DFB0D877ED74C314 /* Build configuration list for PBXProject "LookinServer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5C07B1236A93F05843C738C6;
+			productRefGroup = F3D70B70B15EC4E3043BB357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E82E74835FFC8ADE2A272575 /* LookinServer */,
+				FD6051CDE5EB9693C3FDF3BC /* LookinServerSwift */,
+				963C07E0F0167BD382EF3EB3 /* LookinServerBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F7CC27897378600DA305AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3D0CFFDC6EFA07E93C7760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F146E843BB33BC5C4D81613B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6383A083323F050C766F8CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B772345322B439034BCBD80 /* LKS_SwiftTraceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C70B6AF1640D97D55ED962D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AC1EB53587C66ABE874D67 /* LookinIvarTrace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C92D42B864931F547AD102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEBA95912762DEEE749BCBD /* CALayer+LookinServer.m in Sources */,
+				149B89EF7933E94FDBFACE6F /* NSObject+LookinServer.m in Sources */,
+				A84589E1A6BE0BDCC1774631 /* UIBlurEffect+LookinServer.m in Sources */,
+				B4ECF4E194AE5CA30618721A /* UIColor+LookinServer.m in Sources */,
+				432FB6463DCA95C8EC465229 /* UIImage+LookinServer.m in Sources */,
+				A304F68BB0C0F49E291CE424 /* UIImageView+LookinServer.m in Sources */,
+				DD64BE73608A48934BB12047 /* UILabel+LookinServer.m in Sources */,
+				7F759EB4BF8DCFDA19B468A5 /* UITableView+LookinServer.m in Sources */,
+				B374829B7FF3D2D5EC4A499B /* UITextField+LookinServer.m in Sources */,
+				82B66B050EB7F8B5B603709D /* UITextView+LookinServer.m in Sources */,
+				69D6F0E0998C174C0D5896EE /* UIView+LookinServer.m in Sources */,
+				303CD3315044B71D6A793388 /* UIViewController+LookinServer.m in Sources */,
+				D97F9FC71A38ABAA29318C38 /* UIVisualEffectView+LookinServer.m in Sources */,
+				0CCA2B21E8D7E96AAE8330C6 /* LKS_ConnectionManager.m in Sources */,
+				924B8661CEE0CB03B4579454 /* LKS_RequestHandler.m in Sources */,
+				4508A2F316DC8147DEE7F273 /* LKS_AttrModificationPatchHandler.m in Sources */,
+				D924E61057980683077D6F69 /* LKS_CustomAttrModificationHandler.m in Sources */,
+				BD9FEB71C3BEDE5D206590A2 /* LKS_HierarchyDetailsHandler.m in Sources */,
+				7506A51C1129B6ED6090ED2B /* LKS_InbuiltAttrModificationHandler.m in Sources */,
+				B1A7983BA649624464AB7C4F /* LKSConfigManager.m in Sources */,
+				AFA6B0F75FE2CFC2FDC47ABC /* LKS_AttrGroupsMaker.m in Sources */,
+				21D108E6C26508BB1F70FEC2 /* LKS_CustomAttrGroupsMaker.m in Sources */,
+				F8EFA9D2C96087F898E86063 /* LKS_CustomAttrSetterManager.m in Sources */,
+				F2DB1D490871EC9F4B683C7B /* LKS_CustomDisplayItemsMaker.m in Sources */,
+				89D931D3F9C68DE408D19F68 /* LKS_EventHandlerMaker.m in Sources */,
+				19E0E5C56C54682BE3D7CBF6 /* LKS_ExportManager.m in Sources */,
+				CAB87ECAE969D29357DD0F50 /* LKS_GestureTargetActionsSearcher.m in Sources */,
+				FA0477DED6EF6BF446C8080B /* LKS_Helper.m in Sources */,
+				4E3F1A6ECD2B4B5CE6020570 /* LKS_HierarchyDisplayItemsMaker.m in Sources */,
+				35C7EA1AE0E21A70547B1AFD /* LKS_ObjectRegistry.m in Sources */,
+				89DF76889753923376B90DC5 /* LKS_TraceManager.m in Sources */,
+				79EB5F899D5B2043999DBEBE /* CALayer+Lookin.m in Sources */,
+				06BDBA282286F604B54598F7 /* Color+Lookin.m in Sources */,
+				E7A92CFFD8817AFE66247B98 /* Image+Lookin.m in Sources */,
+				70A75B83E745774904F93F6D /* NSArray+Lookin.m in Sources */,
+				8EBE57CE42D9310028A40A64 /* NSObject+Lookin.m in Sources */,
+				362809B0432ECC7D1E68095B /* NSSet+Lookin.m in Sources */,
+				188DB44966F48D8958E5B6F1 /* NSString+Lookin.m in Sources */,
+				EA4F902E7E8A5D8002CEBFF4 /* LookinAppInfo.m in Sources */,
+				74C7FCD518C9FB4E6D4FB74F /* LookinAttrIdentifiers.m in Sources */,
+				1875A843CDE7C4083D106443 /* LookinAttribute.m in Sources */,
+				C0D9A9C09039FA606EFD8E45 /* LookinAttributeModification.m in Sources */,
+				EB127C623755A07D9AD346DA /* LookinAttributesGroup.m in Sources */,
+				68962C7525A366F26A25F0BB /* LookinAttributesSection.m in Sources */,
+				C23E8DEE494A4A4A8097A293 /* LookinAutoLayoutConstraint.m in Sources */,
+				6EF15AB25D18658BAEB4D15B /* LookinConnectionAttachment.m in Sources */,
+				CE43B26D2625F4FEFE114923 /* LookinConnectionResponseAttachment.m in Sources */,
+				5A0AFB982518FA2851252889 /* LookinCustomAttrModification.m in Sources */,
+				0ECF172AAE14F31AD6078CAB /* LookinCustomDisplayItemInfo.m in Sources */,
+				D2997D44006125578888AE89 /* LookinDashboardBlueprint.m in Sources */,
+				9239C88B25DE266F65AD289C /* LookinDisplayItem.m in Sources */,
+				04A6E06B63E408F2E2FA8BB0 /* LookinDisplayItemDetail.m in Sources */,
+				03EAA7E46C2E28A1145D9294 /* LookinEventHandler.m in Sources */,
+				56B78D0CCED2C0EBB0A9AE05 /* LookinHierarchyFile.m in Sources */,
+				18C56B11E3084C7287C3E253 /* LookinHierarchyInfo.m in Sources */,
+				7EF6B753B6F21828BA1F4457 /* LookinObject.m in Sources */,
+				B4A69D7E7024C9E0CED5E600 /* LookinStaticAsyncUpdateTask.m in Sources */,
+				5390063C6FCEEE8C96EE0890 /* LookinTuple.m in Sources */,
+				F4D9017038E70C327D327321 /* LookinWeakContainer.m in Sources */,
+				D0CCB605B991F3F56932685B /* Lookin_PTChannel.m in Sources */,
+				063397AD35D4A2D31A2D383C /* Lookin_PTProtocol.m in Sources */,
+				C04E2B896725FC69B9C514F6 /* Lookin_PTUSBHub.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6467F9C1D8548ACB6A1698F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LookinServerBase;
+			target = 963C07E0F0167BD382EF3EB3 /* LookinServerBase */;
+			targetProxy = AF741B4223931AEBF6E92C11 /* PBXContainerItemProxy */;
+		};
+		D5AE3A363F9F47C65EBA34A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LookinServerSwift;
+			target = FD6051CDE5EB9693C3FDF3BC /* LookinServerSwift */;
+			targetProxy = 0CC10C8DC1D5E4ECF5357F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1340301C68C0312607C0C654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F522A055EAD92FC105E88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Src/Main",
+					"$(SRCROOT)/Src/Base",
+					"$(SRCROOT)/Src/Main/**",
+					"$(SRCROOT)/Src/Main/Server",
+					"$(SRCROOT)/Src/Main/Server/Category",
+					"$(SRCROOT)/Src/Main/Server/Connection",
+					"$(SRCROOT)/Src/Main/Server/Connection/RequestHandler",
+					"$(SRCROOT)/Src/Main/Server/Inspect",
+					"$(SRCROOT)/Src/Main/Server/Others",
+					"$(SRCROOT)/Src/Main/Server/Perspective",
+					"$(SRCROOT)/Src/Main/Shared",
+					"$(SRCROOT)/Src/Main/Shared/Category",
+					"$(SRCROOT)/Src/Main/Shared/Message",
+					"$(SRCROOT)/Src/Main/Shared/Peertalk",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/LookinServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = LookinServer;
+				PRODUCT_NAME = LookinServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FDBD9C6D2F34E303AA5159A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Src/Base",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/LookinServerBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = LookinServerBase;
+				PRODUCT_NAME = LookinServerBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BB903AB6B92BB2C9047EF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		956818181BBEED3D5AAD3264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Src/Base",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/LookinServerBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = LookinServerBase;
+				PRODUCT_NAME = LookinServerBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C187CE5DFDBA71CE97F60D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Src/Main",
+					"$(SRCROOT)/Src/Base",
+					"$(SRCROOT)/Src/Main/**",
+					"$(SRCROOT)/Src/Main/Server",
+					"$(SRCROOT)/Src/Main/Server/Category",
+					"$(SRCROOT)/Src/Main/Server/Connection",
+					"$(SRCROOT)/Src/Main/Server/Connection/RequestHandler",
+					"$(SRCROOT)/Src/Main/Server/Inspect",
+					"$(SRCROOT)/Src/Main/Server/Others",
+					"$(SRCROOT)/Src/Main/Server/Perspective",
+					"$(SRCROOT)/Src/Main/Shared",
+					"$(SRCROOT)/Src/Main/Shared/Category",
+					"$(SRCROOT)/Src/Main/Shared/Message",
+					"$(SRCROOT)/Src/Main/Shared/Peertalk",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/LookinServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = LookinServer;
+				PRODUCT_NAME = LookinServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C81C924F5AF9CE108CE7517B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Src/Base",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/LookinServerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = LookinServerSwift;
+				PRODUCT_NAME = LookinServerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCA99D1D40D35719A51D312A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Src/Base",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/LookinServerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = LookinServerSwift;
+				PRODUCT_NAME = LookinServerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C87588C75039C69C7B850ED /* Build configuration list for PBXNativeTarget "LookinServerBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDBD9C6D2F34E303AA5159A /* Debug */,
+				956818181BBEED3D5AAD3264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A6F103DFB0D877ED74C314 /* Build configuration list for PBXProject "LookinServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB903AB6B92BB2C9047EF72 /* Debug */,
+				1340301C68C0312607C0C654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD570A83FC875D4BDE1F142 /* Build configuration list for PBXNativeTarget "LookinServerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA99D1D40D35719A51D312A /* Debug */,
+				C81C924F5AF9CE108CE7517B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B03A9E7009899C7B66EBE400 /* Build configuration list for PBXNativeTarget "LookinServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F522A055EAD92FC105E88E /* Debug */,
+				C187CE5DFDBA71CE97F60D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36A1165BCAE2FE99C1B3BDBE /* Project object */;
+}
